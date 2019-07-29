@@ -1,0 +1,97 @@
+1. Newton Second Law
+
+    -Pseudocode-
+    STORE "m" with 600
+    STORE "a" with 2
+
+    CALCULATE "600" times "2"
+    SET "ΣF" value as the result of previous calculation.
+
+    DISPLAY "ΣF"
+
+
+    Algoritma.
+    1. Simpan 600 sebagai massa benda.
+    2. Simpan 2 sebagai percepatan benda.
+    3. Kalikan Massa Benda dan Percepatan Benda untuk menemukan hasil Resultan gaya.
+    4. Jadikan hasil perhitungan di atas sebagai jumlah Resultan Gaya.
+    5. Tampilkan angka Resultan Gaya, "1200" Newton.
+
+
+2. Tahun Kabisat
+
+    -Pseudocode-
+    STORE "year" to any number
+
+    IF "year" % 4 = 0 AND "year" % 100 != 0 
+    
+        DISPLAY "Tahun Kabisat"
+    
+    ELSE IF ("year" % 4 = 0), ("year" % 100 = 0), AND ("year" % 400 = 0)
+
+        DISPLAY "Tahun Kabisat"
+
+    ELSE DISPLAY "Bukan Tahun Kabisat di Kalender Gregorian"
+    
+
+    Algoritma.
+    1. Masukkan angka Tahun, berapa saja.
+    2. Jika tahun dibagi 4 hasil sisa baginya sama dengan nol, dan tahun dibagi 100 hasil sisa baginya tidak sama dengan nol.
+    3. Maka, tahun termasuk Tahun Kabisat.
+    4. Atau, jika Tahun dibagi 4, 0, dan 100 hasil sisa baginya masing-masing sama dengan 0.
+    5. Maka, tahun termasuk Tahun Kabisat.
+    6. Selain kasus di atas, Tahun tidak termasuk Tahun Kabisat di Kalender Gregori.
+
+
+3. Laundry Dry
+
+    -Pseudocode-
+    STORE "Kapasitas Laundry" with 0
+    STORE "Total Cucian Foxie" with 20
+
+    WHILE "Kapasitas Laundry" <= "Total Cucian Foxie"
+        DISPLAY "Kapasitas Laundry"
+        ADD "Kapasitas Laundry" by 1
+
+    DISPLAY "KAPASITAS LAUNDRY CUCI SUDAH PENUH DAN SIAP MENCUCI"
+
+
+
+   -Algoritma-
+   1. "Kapasitas Laundry" dalam keadaan kosong.
+   2. Simpan "Total Cucian Foxie" sejumlah 20.
+   3. Saat "Kapasitas Laundry" kurang dari "Total Cucian Foxie",
+   4. Tampilkan "Kapasitas Laundry"
+   5. Tambahkan 1 (Pakaian Foxie) ke "Kapasitas Laundry".
+   6. Selama "Kapasitas Laundry" kurang dari atau sama dengan "Total Cucian Foxie", ulangi proses poin 5.
+   7. Saat "Kapasitas Laundry" sudah mencapai angka "Total Cucian Foxie",
+   8. Maka, Tampilkan "KAPASITAS LAUNDRY CUCI SUDAH PENUH DAN SIAP MENCUCI"
+
+
+   
+4. Periksa Kuku
+
+    -Pseudocode
+    STORE "Total Murid Kelas" by 40
+    STORE "Murid" by 1
+    STORE "Kuku Murid" by "Kuku Panjang" or "Kuku Rapi"
+    
+    WHILE "Murid" <= "Total Murid Kelas"
+        DISPLAY "Murid ke-" + "Murid"  
+    IF " Kuku Murid" = "Kuku Panjang"
+        DISPLAY "Kamu dihukum!"
+    ELSE DISPLAY "Kamu anak Baik!"
+        ADD "Murid" by 1.
+
+
+    Algoritma.
+    1. Simpan "Total Murid Kelas" sejumlah 40.
+    2. Simpan angka "Murid" yang akan diperiksa di nomor awal.
+    3. Simpan Nilai "Kuku Murid", "Kuku Panjang" atau "Kuku Rapi"
+    4. Jika angka Murid masih kurang dari atau sama dengan "Total Murid Kelas"
+    5. Maka, ibu guru akan memeriksa Murid ke-"Murid".
+    6. Selanjutnya, saat memeriksa Murid ke-"Murid", periksa "Kuku Murid"
+    7. Jika "Kuku Murid" = "Kuku Panjang" Maka, "Murid" akan dihukum.
+    8. Jika tidak, maka "Murid" akan dipuji.
+    9. Kemudian, Bu Guru pindah ke murid selanjutnya.
+    10.Lakukan Proses pada poin 4-9, sampai "Total Murid Kelas" terperiksa semuanya.
